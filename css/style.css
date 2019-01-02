@@ -1,0 +1,736 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header-banner {
+    padding-top: 35px;
+    padding-bottom: 80px;
+    font-family: Helvetica, serif;
+    font-weight: 100;
+    background-image: url(../img/bg-gr-v.png)/*(FONDO MORADO)*/, url(../img/marriott-hotel.jpg); /*(1600X1060)*/
+    
+    background-attachment: scroll, scroll;
+    background-position-x: 0%, 50%;
+    background-position-y: 0%, 50%;
+    background-repeat-x: no-repeat, no-repeat;
+    background-repeat-y: repeat, no-repeat;
+    background-size: contain, cover;
+    color: #ffffff;
+    height: 90vh;
+}
+
+.container-width {
+    width: 90%;
+    margin: 0px auto 0px auto;
+    color: rgb(85, 85, 85);
+}
+
+.logo-container {
+    float: left;
+    width: 50%;
+}
+
+.logo img{
+    width: 210px;
+    min-height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(77, 17, 79);
+    font-size: 42px;
+        width: 210px;
+    min-height: 30px;
+}
+
+.menu {
+    float: right;
+    width: 50%;
+}
+
+
+
+.menu-item {
+    float: right;
+    font-size: 15px;
+    width: 130px;
+    padding: 10px;
+    min-height: 50px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+    transition-property: all;
+}
+
+.menu-item a:hover{
+    color: #FFF;
+}
+
+* {margin:0;padding:0;border:0 none;position: relative; outline: none;
+}
+
+.menu-item a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -4px;
+  left: 0;
+  background: rgb(255, 255, 255);
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
+.menu-item a:hover:before,
+.menu-item a:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.lead-title {
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #FFF;
+}
+
+.sub-lead-title {
+    max-width: 650px;
+    line-height: 30px;
+    margin-bottom: 90px;
+    color: #9d9d9d;
+}
+
+.contact-btn {
+    margin-top: 15px;
+    padding: 10px;
+    width: 190px;
+    min-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 30px;
+    background-color: rgb(218, 218, 218);
+    color: rgb(58, 49, 124);
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+    transition-property: all;
+    cursor: pointer;
+    right: 0px;
+}
+
+.contact-btn:hover{
+    background: #FFF;
+}
+
+.sant-sect {
+    padding: 100px 0 100px 0;
+    background-color: rgb(240,240,250);
+    font-family: Helvetica, serif;
+    color: #000000;
+    
+}
+
+.sant-title{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: rgb(85, 85, 85);
+}
+
+.sant-notes {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    margin: 10px 0px 15px 0px;
+}
+
+.sant-desc {
+    font-size: 15px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 0 auto;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.price-cards {
+    margin-top: 70px;
+    display: table;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.price-card-cont {
+    display: table-cell;
+    
+}
+
+.price-card {
+    min-height: 350px;
+    background-color: rgb(244,250,253);
+    font-weight: 100;
+    color: rgb(40, 40, 40);
+    
+}
+
+.pc-title {
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 25px;
+    background: rgb(193,210,219);
+    padding: 20px;
+}
+
+.pc-desc {
+    text-align: center;
+    padding: 75px 10px 75px 10px;
+    word-wrap: break-word;
+}
+
+.pc-feature {
+    color: rgba(40, 40, 40, 0.5);
+    background-color: rgb(244,250,253);
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 10px 20px 10px 16px;
+    cursor: default;
+}
+
+.pc-feature:hover {
+    color: rgba(40, 40, 40, 1);
+}
+
+
+.pc-amount {
+    background: rgb(193,210,219);
+    font-size: 35px;
+    text-align: center;
+    padding: 35p 0 35px 0;
+    color: rgb(255, 255, 255);
+}
+
+.pc-foot {
+    padding: 13px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.pc-foot2 {
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.pc-sign {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    display: block;
+    border-radius: 100%;
+    margin: 0px 30px 0px 25px;
+}
+
+.pc-price {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    display: block;
+    border-radius: 100%;
+    margin: 0px 30px 0px 25px;
+    font-size: 25px;
+}
+
+.pc-dropoff {
+    background-color: rgb(64, 64, 85);
+    color: rgb(250,250,250);
+}
+
+.pc-dropoff .pc-title{
+    background-color: rgb(74, 74, 95);
+}
+
+.pc-dropoff .pc-feature{
+    background-color: rgb(64, 64, 85);
+    color: rgba(250,250,250, 0.5);
+}
+
+.pc-dropoff .pc-feature:hover{
+    color: rgba(250,250,250,1);
+}
+
+.pc-dropoff .pc-amount{
+    background-color: rgb(74, 74, 95);
+}
+
+
+.tour-sect {
+    background-color: rgb(34, 34, 34);
+    padding: 100px 0 100px 0;
+    font-family: Helvetica, serif;
+    color: rgb(255, 255, 255);
+}
+
+.tour-title {
+    margin-bottom: 15px;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 700;
+    padding: 5px;
+    color: rgb(229, 229, 229);
+}
+
+.tour-desc {
+    margin-bottom: 55px;
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+    color: rgb(177, 177, 177);
+}
+
+.cards {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: initial;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+    border: 2px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+    transition-property: all;
+    font-weight: 100;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.card:hover {
+    margin-top: -5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px 0px;
+}
+
+.card-header {
+    height: 155px;
+    background-image: url("http://placehold.it/350x250/78c5d6/fff/image1.jpg");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.card-header.ch2 {
+    background-image: url("http://placehold.it/350x250/459ba8/fff/image2.jpg");
+}
+
+.card-header.ch3 {
+    background-image: url("http://placehold.it/350x250/79c267/fff/image3.jpg");
+}
+
+.card-header.ch4 {
+    background-image: url("http://placehold.it/350x250/c5d647/fff/image4.jpg");
+}
+
+.card-header.ch5 {
+    background-image: url("http://placehold.it/350x250/f28c33/fff/image5.jpg");
+}
+
+.card-header.ch6 {
+    background-image: url("http://placehold.it/350x250/e868a2/fff/image6.jpg");
+}
+
+.card-body {
+    padding: 15px 15px 5px 15px;
+    color: rgb(85, 85, 85);
+}
+
+.card-title {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+
+.card-sub-title {
+    color: rgb(179, 179, 179);
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.card-desc {
+    font-size: 0.85rem;
+    line-height: 17px;
+}
+
+.container-width-promo {
+    width: 100%;
+    color: rgb(85, 85, 85);
+}
+
+.promo-sect {
+    padding: 100px 0 100px 0;
+    font-family: Helvetica, serif;
+    background-image: url("../img/bg-gr-v.png")/*(FONDO MORADO)*/, url("../img/ship.jpg"); /*(1600X1060)*/
+    background-attachment: scroll, fixed;
+    background-position-x: 0%, 50%;
+    background-position-y: 0%, 50%;
+    background-repeat-x: no-repeat, no-repeat;
+    background-repeat-y: repeat, no-repeat;
+    background-size: contain, cover;
+}
+
+.img-promo {
+    float: left;
+    display: inline-block;
+    left: -80px;
+    bottom: -100px;
+}
+
+.promo-container {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    text-align: right;
+    
+}
+
+.promo-content {
+    float: left;
+    padding: 7px;
+    width: 490px;
+    color: rgb(197, 197, 197);
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.promo-pre {
+    padding: 7px;
+    color: rgb(235, 235, 235);
+    font-size: 65px;
+}
+
+.promo-title {
+    padding: 7px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.promo-desc {
+    margin-top: 30px;
+    padding: 7px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.promo-post {
+    padding: 7px;
+    line-height: 25px;
+    font-size: 13px;
+    
+}
+
+
+.bdg-sect {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: Helvetica, serif;
+    background-color: rgb(250, 250, 250);
+    padding: 100px 0px 100px 0px;
+}
+
+.bdg-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 55px;
+    color: rgb(85, 85, 85);
+}
+
+.trans {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.tran {
+    width: 290px;
+    font-family: Helvetica, serif;
+    background-color: white;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px 0px;
+    border-radius: 3px;
+    font-weight: 100;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.tran-header {
+    height: 115px;
+    background-image: url("/img/bg-gr-v.png"), url("/img/kia-optima-sedan-bg.jpg");
+    background-position-x: 0%, 50%;
+    background-position-y: 0%, 50%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-size: 300px 200px;
+}
+
+.tran-name {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.tran-role {
+    color: rgb(119, 119, 119);
+    font-size: 1em;
+    margin-bottom: 25px;
+}
+
+.tran-avatar {
+    width: 95%;
+    height: 250px;
+    border-radius: 100%;
+    background: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255,255,255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+    margin-top: -75px;
+    position: relative;
+}
+
+
+
+.tran-body {
+    margin: 35px 10px 35px 10px;
+}
+
+.tran-foot {
+    color: rgb(255, 255, 255);
+    background-color: rgb(65, 65, 65);
+    padding: 13px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.tran-foot2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 64, 64);
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.tran-sign {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    display: block;
+    border-radius: 100%;
+    margin: 0px 10px 0px 10px;
+    font-size: 25px
+}
+
+.tran-qty {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    color: rgb(64, 64, 64);
+    display: block;
+    border-radius: 100%;
+    margin: 0px 10px 0px 10px;
+}
+
+.c9521 {
+    font-size: 15px;
+}
+
+#i9w1su {
+    font-size: 2em;
+}
+
+
+.footer-under {
+    background-color: rgb(34, 34, 34);
+    padding: 100px 0 100px 0;
+    min-height: 500px;
+    color: rgb(238, 238, 238);
+    position: relative;
+    font-weight: 100;
+    font-family: Helvetica, serif;
+}
+
+.copyright {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: rgba(238, 238, 238, 0.5);
+    bottom: 0px;
+    padding: 1em 0 1em 0;
+    position: absolute;
+    width: 100%;
+    font-size: 0.75em;
+}
+
+.made-with {
+    width: 50%;
+    padding 5px 0 5px 0;
+    float: left;
+    text-align: left;
+}
+
+.made-with.designed-by {
+    text-align: right;
+    float: right;
+}
+
+.made-with.marriott-info {
+    width: 100%;
+    text-align: center;
+}
+
+.foot-social-btns {
+    display: none;
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 5px 0 5px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.foot-list {
+    float: left;
+    width: 200px;
+}
+
+.foot-list-title {
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.foot-list-item {
+    color: rgba(238, 238, 238, 0.8);
+    font-size: 0.8em;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.foot-list-item:hover {
+    color: rgb(238, 238, 238);
+}
+
+.foot-form-cont {
+    width: 300px;
+    float: right;
+}
+
+.foot-form-title {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 0.5em 0 0.5em 0;
+    text-align: right;
+    font-size: 2em;
+}
+
+.foot-form-desc {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 20px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.sub-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 7px 10px 7px 10px;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 76, 87);
+}
+
+.sub-btn {
+    width: 100%;
+    margin: 15px 0 15px 0;
+    background-color: rgb(120, 85, 128);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 7px 10px 7px 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.sub-btn:hover {
+    background-color: rgb(145, 105, 154);
+}
+
+.sub-btn:active {
+    background-color: rgb(87, 63, 92);
+}
+
+@media (max-width: 768px) {
+    .foot-form-cont {
+        width: 400px;
+    }
+    
+    .price-card-cont{
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .foot-lists {
+    
+    }
+}
