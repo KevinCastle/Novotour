@@ -20,9 +20,9 @@ body {
     font-family: Helvetica, serif;
     font-weight: 100;
     background-color: black;
-    background-image: url(/img/bg-gr-v.png)
+    background-image: url(/Novotour/img/bg-gr-v.png)
         /*(FONDO MORADO)*/
-        , url(/img/20190118_203634.jpg);
+        , url(/Novotour/img/20190118_203634.jpg);
     /*(1600X1060)*/
     background-attachment: scroll, scroll;
     background-position-y: 0%, 100%;
@@ -347,7 +347,7 @@ body {
 
 .card-header {
     height: 155px;
-    background-image: url(/img/viña-del-mar.jpg);
+    background-image: url(/Novotour/img/viña-del-mar.jpg);
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
@@ -358,19 +358,19 @@ body {
 }
 
 .card-header.ch3 {
-    background-image: url(/img/embalseelyeso.jpg);
+    background-image: url(/Novotour/img/embalseelyeso.jpg);
 }
 
 .card-header.ch4 {
-    background-image: url(/img/indomita.jpg);
+    background-image: url(/Novotour/img/indomita.jpg);
 }
 
 .card-header.ch5 {
-    background-image: url(/img/santarita.jpg);
+    background-image: url(/Novotour/img/santarita.jpg);
 }
 
 .card-header.ch6 {
-    background-image: url(/img/laspostolle.jpg);
+    background-image: url(/Novotour/img/laspostolle.jpg);
 }
 
 .card-body {
@@ -404,9 +404,9 @@ body {
 .promo-sect {
     padding: 100px 0 100px 0;
     font-family: Helvetica, serif;
-    background-image: url("../img/bg-gr-v.png")
+    background-image: url(/Novotour/img/bg-gr-v.png)
         /*(FONDO MORADO)*/
-        , url("../img/ship.jpg");
+        , url(/Novotour/img/ship.jpg);
     /*(1600X1060)*/
     background-attachment: scroll, fixed;
     background-position-x: 0%, 50%;
@@ -514,7 +514,7 @@ div#slider figure img {
 }
 
 #asdf{
-    background-image: url("/img/marriott-hotel.jpg");
+    background-image: url(/Novotour/img/marriott-hotel.jpg);
 }
 
 div#slider figure {
@@ -567,7 +567,7 @@ div#slider figure {
 
 .tran-header {
     height: 115px;
-    background-image: url("/img/bg-gr-v.png"), url("/img/kia-optima-sedan-bg.jpg");
+    background-image: url(/Novotour/img/bg-gr-v.png), url(/Novotour/img/kia-optima-sedan-bg.jpg);
     background-position-x: 0%, 50%;
     background-position-y: 0%, 50%;
     overflow-x: hidden;
