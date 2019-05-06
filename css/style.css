@@ -14,25 +14,6 @@ body {
     clear: both;
 }
 
-.header-banner {
-    padding-top: 35px;
-    padding-bottom: 80px;
-    font-family: Helvetica, serif;
-    font-weight: 100;
-    background-color: black;
-    background-image: url(/Novotour/img/bg-gr-v.png)
-        /*(FONDO MORADO)*/
-        , url(/Novotour/img/marriott-hotel.jpg);
-    /*(1600X1060)*/
-    background-attachment: scroll, scroll;
-    background-position-y: 0%, 100%;
-    background-repeat-x: no-repeat, no-repeat;
-    background-repeat-y: repeat, no-repeat;
-    background-size: contain, cover;
-    color: #ffffff;
-    height: 90vh;
-}
-
 .container-width {
     width: 90%;
     margin: 0px auto 0px auto;
@@ -553,7 +534,7 @@ div#slider figure {
 }
 
 .tran {
-    width: 290px;
+    width: 340px;
     font-family: Helvetica, serif;
     background-color: white;
     margin-bottom: 30px;
@@ -572,7 +553,7 @@ div#slider figure {
     background-position-y: 0%, 50%;
     overflow-x: hidden;
     overflow-y: hidden;
-    background-size: 300px 200px;
+    background-size: 360px 230px;
 }
 
 .tran-name {
@@ -765,9 +746,26 @@ div#slider figure {
     background-color: rgb(87, 63, 92);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .foot-form-cont {
         width: 400px;
+    }
+
+    .header-banner {
+        padding-top: 35px;
+        padding-bottom: 80px;
+        font-family: Helvetica, serif;
+        font-weight: 100;
+        background-color: black;
+        background-image: url(/Novotour/img/bg-gr-v.png), url(/Novotour/img/marriott-hotel.jpg);
+        background-position-y: 0%, 100%;
+        background-size: 300px 200px;
+        background-attachment: scroll, scroll;
+        background-repeat-x: no-repeat, no-repeat;
+        background-repeat-y: repeat, no-repeat;
+        background-size: cover, cover;
+        color: #ffffff;
+        height: 50vh;
     }
 
     .price-cards {
@@ -776,6 +774,20 @@ div#slider figure {
     }
 }
 
-@media (max-width: 480px) {
-    .foot-lists {}
+@media (min-width: 1024px) {
+    .header-banner {
+        padding-top: 35px;
+        padding-bottom: 80px;
+        font-family: Helvetica, serif;
+        font-weight: 100;
+        background-color: black;
+        background-image: url(/Novotour/img/bg-gr-v.png), url(/Novotour/img/marriott-hotel.jpg);
+        background-position-y: 0%, 100%;
+        background-attachment: scroll, scroll;
+        background-repeat-x: no-repeat, no-repeat;
+        background-repeat-y: repeat, no-repeat;
+        background-size: contain, cover;
+        color: #ffffff;
+        height: 90vh;
+    }
 }
